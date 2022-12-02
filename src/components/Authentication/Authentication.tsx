@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { useEffect, useState } from 'react'
 import LoadingAnimation from '../Others/LoadingAnimation'
-import OAuth from '../../scripts/others/oauth'
+import OAuth from '../../scripts/oauth'
 import { useLocation, useNavigate } from 'react-router-dom'
 import SignInForm from './SignInForm'
 

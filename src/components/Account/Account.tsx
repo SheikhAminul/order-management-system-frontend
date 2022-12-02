@@ -1,5 +1,5 @@
 import * as React from 'react'
-import OAuth from '../../scripts/others/oauth'
+import OAuth from '../../scripts/oauth'
 
 export default function Account() {
     const { email, firstName, lastName } = OAuth.actingUser

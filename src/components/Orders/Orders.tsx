@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import { FiEdit } from 'react-icons/fi'
 import { AiOutlineEye } from 'react-icons/ai'
 import { NavLink, Outlet, useLocation } from 'react-router-dom'
-import { doFetch } from '../../scripts/others/do-fetch'
+import { doFetch } from '../../scripts/do-fetch'
 import LoadingAnimation from '../Others/LoadingAnimation'
 
 interface OrderInfo {

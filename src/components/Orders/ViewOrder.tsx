@@ -2,7 +2,7 @@ import * as React from 'react'
 import { useEffect, useState } from 'react'
 import { FiCopy } from 'react-icons/fi'
 import { useNavigate, useParams } from 'react-router-dom'
-import { doFetch } from '../../scripts/others/do-fetch'
+import { doFetch } from '../../scripts/do-fetch'
 import LoadingAnimation from '../Others/LoadingAnimation'
 import Modal from '../Others/Modal'
 
