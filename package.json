@@ -2,7 +2,7 @@
 	"name": "order-management-system-frontend",
 	"version": "1.0.0",
 	"scripts": {
-		"start": "node app.js",
+		"start": "npm run dist && node app.js",
 		"start:development": "node app.js --development",
 		"build": "webpack --mode development --no-devtool",
 		"watch:build": "webpack --mode development --devtool cheap-module-source-map --watch",
