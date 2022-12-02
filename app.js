@@ -11,6 +11,6 @@ app.get(/^(?!(\/)\/).*/, function (req, res) {
 })
 
 // Start server
-http.createServer(app).listen(80, async () => {
-    console.log(`${new Date().toLocaleString()} - http://localhost:80/`)
+http.createServer(app).listen(process.env.PORT || 3000, async () => {
+    console.log(`${new Date().toLocaleString()} - http://localhost:${process.env.PORT || 3000}/`)
 })
